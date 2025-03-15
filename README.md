@@ -19,4 +19,4 @@ The logits are saved in the `contents` folder which needs to be emptied every ti
 In each folder `train_model.py` should be run first and then `evaluate.py`.
  - `train_model.py` downloads (and poisons the data) and trains the model and applies the FRAPPE framework.
  - `evaluate.py` calculates Fairness metrics and calls `postproc_fairness/fairmain.py`
- - `postproc_fairness/fairmain.py´ applies FRAPPE and calculates Fairness metrics
+ - `postproc_fairness/fairmain.py` applies FRAPPE and calculates Fairness metrics
