@@ -14,7 +14,7 @@ Python pacakge requirements are in `requirements.txt` and need to be installed
 ### Workflow
 There are 4 folders, 2 for each dataset, 1 with the Badfair attack and 1 without. 
 Since training data poisoning and test data manipulation is needed to implement Badfair, this folder seperation was done to prevent accidental cross-contamination.
-The logits are saved in the contents folder which needs to be emptied every time parameters are changed and the model is retrained.
+The logits are saved in the `contents` folder which needs to be emptied every time parameters are changed and the model is retrained.
 
 In each folder `train_model.py` should be run first and then `evaluate.py`.
  - `train_model.py` downloads (and poisons the data) and trains the model and applies the FRAPPE framework.
