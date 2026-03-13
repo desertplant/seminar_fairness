@@ -1,5 +1,10 @@
-# seminar_fairness - Evaluation of Fairness Frameworks for Robustness against Adversarial Attacks 
-This repository implements and evaluates multiple fairness frameworks applied to NLP text classification under adversarial settings. The implementations include:
+# Evaluation of Fairness Frameworks for Robustness against Adversarial Attacks 
+This project investigates the robustness of fairness mitigation frameworks under adversarial attacks in NLP text classification.
+
+It implements and evaluates multiple fairness post-processing approaches together with data poisoning strategies to analyze how fairness guarantees degrade under adversarial manipulation.
+
+The repository provides an experimental pipeline for training, attacking, and evaluating text classifiers across different datasets and fairness configurations.
+It implements and evaluates multiple fairness frameworks applied to NLP text classification under adversarial settings. The implementations include:
 
 - **FRAPPÉ on NLP Text Classification:** A framework that applies post-processing fairness mitigation.
 - **BadFair on NLP Text Classification:** An approach to attack fairness mechanisms via data poisoning.
